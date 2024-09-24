@@ -1,0 +1,64 @@
+*{
+  background-color: rgb(144, 190, 175);
+}
+form{
+  /* width: 1170px; */
+  margin: auto;
+  display: flex;
+  gap: 2%;
+}
+form input{
+  flex-basis: 40%;
+  height: 40px;
+  margin-left: 300px;
+  background-color: rgb(169, 164, 164);
+  color: white;
+  cursor: pointer;
+}
+form button{
+  flex-basis: 20%;
+  height: 40px;
+  background-color: rgb(75, 167, 75);
+  color: aliceblue;
+  font-weight: 300;
+  border-radius: 3px;
+  border: none;
+  transition: 2ms;
+  font-size: 1rem;
+
+}
+form button:hover{
+   background-color: lightgreen;
+   color: black;
+}
+h1{
+  text-align: center;
+}
+.outerdiv{
+  width: 570px;
+  margin: auto;
+}
+.outerdiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-top: 50px;
+}
+.outerdiv ul li{
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.outerdiv ul li span{
+  position: absolute;
+  margin-left: 400px;
+  cursor: pointer;
+}
+.completetodo{
+  text-decoration: line-through;
+  color: red;
+  background-color: rgb(163, 163, 157) !important;
+}
